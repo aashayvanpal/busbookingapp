@@ -1,6 +1,6 @@
 const header = () => {
   return (
-    <div className="z-[2] relative flex bg-[#23415D] h-[60px] justify-center items-center ">
+    <div className="relative flex bg-[#23415D] h-[60px] justify-center items-center ">
       <div className="h-[30px] w-[60px] ">
         {/* burger icon */}
         <svg

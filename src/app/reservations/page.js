@@ -1,13 +1,13 @@
 "use client";
-import Header from "./components/header";
+import Header from "../components/header";
 import Image from "next/image";
 import Link from "next/link";
-export default function Home() {
+export default function reservations() {
   return (
     <div className="h-full relative">
         <div className="absolute top-0 left-0 z-[0]  h-full min-h-screen w-full ">
           <Image
-            src={"/images/backgrounds/background-home.png"}
+            src={"/images/backgrounds/background-2.png"}
             alt="background image"
             className="relative undraggable"
             fill
